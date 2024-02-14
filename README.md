@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Image Vault is a simple web application designed to securely manage user authentication and image uploads. Users can sign up, log in, and upload images, with each user's data being securely handled and stored.
+Image Palace is a simple web application designed to securely manage user authentication and image uploads. Users can sign up, log in, and upload images, with each user's data being securely handled and stored.
 
 ### Features
 
@@ -20,7 +20,7 @@ Image Vault is a simple web application designed to securely manage user authent
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/AbhiSurve2412/image-vault.git
+   git clone https://github.com/Dnyaneshwar150/Image_palace.git
 2. Install NPM packages:
    npm install
 3. Create a `.env` file in the project root and fill in your MongoDB URI, Cloudinary details, and session secret:
@@ -34,10 +34,10 @@ Image Vault is a simple web application designed to securely manage user authent
 
 ## Usage
 
-After starting the application, navigate to `http://localhost:3000` to access Image Vault. New users can sign up by providing their email and password. Once registered, users can log in to access the image upload functionality.
+After starting the application, navigate to `http://localhost:8080` to access Image Palace. New users can sign up by providing their email and password. Once registered, users can log in to access the image upload functionality.
 
 
 ## Contact
 
-Abhijit Surve -surveabhijit2002@gmail.com
+dnyaneshwardimble -dnyaneshwardimble25436@gmail.com
 
