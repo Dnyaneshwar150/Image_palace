@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e8f0fe; /* Consistent background color */
+  color: #555; /* Consistent text color */
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-container {
+  max-width: 900px; /* Increased max width */
+  margin: 2rem auto; /* Adjusted margin */
+  padding: 30px; /* Increased padding */
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 50px; /* Increased margin bottom */
+}
+
+header h1 {
+  color: #007bff; /* Consistent heading color */
+  font-size: 2.5rem; /* Increased font size */
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 50px; /* Increased margin bottom */
+}
+
+section h2 {
+  color: #007bff; /* Consistent heading color */
+  border-bottom: 2px solid #007bff; /* Consistent border color */
+  padding-bottom: 15px; /* Increased padding bottom */
+}
+
+section p,
+section ul {
+  line-height: 1.8; /* Increased line height */
+}
+
+/* Features List */
+ul {
+  list-style-type: disc; /* Consistent list style type */
+  padding-left: 20px; /* Increased padding left */
+}
+
+ul li {
+  margin-bottom: 15px; /* Increased margin bottom */
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Get Started Section */
+.get-started {
+  text-align: center;
+  margin-top: 30px; /* Increased margin top */
+}
+
+.get-started a {
+  background-color: #007bff; /* Consistent background color */
+  color: white;
+  padding: 12px 24px; /* Increased padding */
+  border-radius: 8px; /* Increased border radius */
+  transition: background-color 0.3s ease;
+}
+
+.get-started a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

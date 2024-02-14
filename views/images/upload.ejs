@@ -1,0 +1,36 @@
+<% layout('/layouts/boilerplate') -%>
+
+<body>
+    <div class="col-6 offset-3 upload-form-container">
+      <div class="upload-heading">
+          <h2 class="text-center mt-2 upload-heading">Upload Your Image</h2>
+      </div>
+      <div class="row justify-content-center mt-3">
+          <div class="col-md-6">
+              <form method="POST" action="/image/upload" enctype="multipart/form-data" novalidate class="upload-needs-validation">
+                  <div class="upload-mb-3 mb-3">
+                      <label for="image" class="upload-form-label">Image</label>
+                      <input
+                          type="file"
+                          name="image"
+                          id="image"
+                          class="upload-form-control"
+                          required
+                      />
+                  </div>
+                  <div class="upload-mb-3 mb-3">
+                      <label for="caption" class="upload-form-label">Caption</label>
+                      <input
+                          type="text"
+                          name="caption"
+                          id="caption"
+                          placeholder="Add a caption"
+                          class="upload-form-control"
+                      />
+                  </div>
+                  <button class="upload-btn btn-success">Upload Image</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</body>

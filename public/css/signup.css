@@ -1,0 +1,68 @@
+/* General styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif; /* Changed font family */
+  background-color: #e8f0fe; /* Consistent background color */
+}
+
+/* Center the form container */
+.signup-form-container {
+  background-color: #ffffff; /* Consistent background color */
+  padding: 30px; /* Decreased padding */
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  margin: 4rem auto; /* Increased margin */
+  width: 60%; /* Increased width */
+  max-width: 700px; /* Increased max width */
+}
+
+/* Heading styles for the signup section */
+.signup-heading {
+  color: #007bff; /* Consistent blue color */
+  text-align: center;
+  margin-bottom: 25px; /* Increased margin */
+}
+
+/* Style adjustments for signup form fields */
+.signup-form-control {
+  height: 45px; /* Increased height */
+  padding: 12px; /* Increased padding */
+  font-size: 17px; /* Increased font size */
+  border: 2px solid #8c96a5; /* Consistent border color */
+  border-radius: 7px; /* Increased border radius */
+  margin-bottom: 20px; /* Increased margin */
+  width: 95%; /* Decreased width */
+}
+
+/* Label styling for clarity within the signup form */
+.signup-form-label {
+  display: block;
+  margin-bottom: 8px; /* Decreased margin */
+  color: #1a1a1a; /* Darker font color for better contrast */
+  font-size: 16px; /* Increased font size */
+}
+
+/* Styling for the 'Sign Up' button */
+.signup-btn {
+  display: inline-block; /* Changed to inline block */
+  width: auto; /* Adjusted width */
+  padding: 12px 20px; /* Adjusted padding */
+  font-size: 20px; /* Increased font size */
+  border: 2px solid #007bff; /* Consistent border color */
+  border-radius: 7px; /* Increased border radius */
+  background-color: #007bff; /* Consistent blue background color */
+  color: #ffffff; /* Changed text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Adjusted transition */
+}
+
+.signup-btn:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .signup-form-container {
+    width: 90%; /* Adjusted width */
+    padding: 15px; /* Decreased padding */
+  }
+}

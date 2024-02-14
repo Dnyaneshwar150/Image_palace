@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Consistent font family */
+    background-color: #e8f0fe; /* Consistent background color */
+}
+
+/* Center the upload form container */
+.upload-form-container {
+    background-color: #ffffff; /* Consistent background color */
+    padding: 30px; /* Decreased padding */
+    border-radius: 10px; /* Increased border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+    margin: 3rem auto; /* Increased margin */
+    width: 70%; /* Increased width */
+    max-width: 800px; /* Increased max width */
+}
+
+/* Heading styles for the upload section */
+.upload-heading {
+    color: #007bff; /* Consistent heading color */
+    text-align: center;
+    margin-bottom: 25px; /* Increased margin */
+}
+
+/* Style adjustments for upload form fields */
+.upload-form-control {
+    height: 45px; /* Increased height */
+    padding: 12px; /* Increased padding */
+    font-size: 16px; /* Increased font size */
+    border: 2px solid #8c96a5; /* Consistent border color */
+    border-radius: 7px; /* Increased border radius */
+    margin-bottom: 20px; /* Increased margin */
+}
+
+/* Special styling for file input to align with other inputs */
+.upload-form-control[type="file"] {
+    height: auto; /* Reset height for file inputs */
+    padding: 10px; /* Increased padding */
+}
+
+/* Label styling for clarity within the upload form */
+.upload-form-label {
+    display: block;
+    margin-bottom: 8px; /* Increased margin */
+    color: #1a1a1a; /* Consistent label color */
+    font-size: 16px; /* Increased font size */
+}
+
+/* Styling for the 'Upload Image' button */
+.upload-btn {
+    display: inline-block; /* Changed to inline block */
+    width: 100%; /* Adjusted width */
+    padding: 12px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    border: none;
+    border-radius: 7px;
+    background-color: #007bff; /* Consistent background color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover for visual feedback */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .upload-form-container {
+        width: 90%; /* Adjusted width */
+        padding: 20px; /* Adjusted padding */
+    }
+}

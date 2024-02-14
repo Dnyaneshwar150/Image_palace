@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto", sans-serif !important; /* Changed font family */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 4rem; /* Decreased margin-left */
+}
+
+/* General Navbar Styles */
+.navbar {
+  background-color: #f8f8f8; /* Consistent background color */
+  border-bottom: 2px solid #dddddd; /* Consistent border color */
+  padding: 1rem; /* Increased padding */
+}
+
+.navbar-brand {
+  color: #007bff; /* Consistent brand color */
+  font-weight: bold;
+  font-size: 1.4rem; /* Increased font size */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>'); /* Consistent icon color */
+}
+
+/* Enhanced Navbar Link Styles */
+.nav-link {
+  color: #333; /* Consistent link color */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff; /* Consistent hover color */
+}
+
+.nav-link::after {
+  background-color: #007bff; /* Consistent underline color */
+}
+
+/* Footer General Styles */
+.footer {
+  background-color: #222; /* Consistent background color */
+  color: #fff; /* Consistent text color */
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.f-info-socials a {
+  color: #007bff; /* Consistent social icon color */
+}
+
+.f-info-socials a:hover,
+.f-info-socials a:focus {
+  color: #fff; /* Consistent hover color */
+}
+
+/* Main content CSS */
+.form-container {
+  margin: 4rem auto; /* Increased top and bottom margin */
+  background: linear-gradient(135deg, #f0f8ff 0%, #add8e6 100%); /* Consistent background gradient */
+  padding: 3rem; /* Increased padding */
+}
+
+.form-container h2 {
+  color: #333; /* Consistent heading color */
+  text-align: center;
+  margin-bottom: 2rem; /* Decreased margin */
+}
+
+.form-group {
+  background: #ffffff; /* Consistent form group background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Consistent box shadow */
+}
+
+.form-group label {
+  color: #555; /* Consistent label color */
+}
+
+.form-group input[type="file"] {
+  border: 1px solid #ccc; /* Consistent input border color */
+}
+
+.btn {
+  padding: 1rem; /* Increased padding */
+  font-size: 1.1rem; /* Increased font size */
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #0056b3; /* Consistent hover color */
+}

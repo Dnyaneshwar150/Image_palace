@@ -1,0 +1,18 @@
+<% layout('/layouts/boilerplate') -%>
+<body>
+    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1">
+        <% for(let img of allImages) { %>
+            <a href="/image/<%=img._id%>">
+                <div class="card col image-card">
+                    <img src="<%= img.image.url%>" class="card-img-top" alt="img"  style="height: 20rem"/>
+                    <div class="card-img-overlay"></div>
+                    <div class="card-body">
+                      <p class="card-text">
+                      <b><%= img.caption%></b></br>
+                      </p>
+                    </div>
+                  </div>
+            </a>
+            <%}%>
+      </div>
+</body>
