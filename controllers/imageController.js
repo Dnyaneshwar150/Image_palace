@@ -1,4 +1,4 @@
-const Image = require("../models/Image");
+const Image = require("../models/image");
 
 const imageController = {
   // Display upload form

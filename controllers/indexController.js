@@ -1,4 +1,4 @@
-const Image = require("../models/Image");
+const Image = require("../models/image");
 
 const homeController = {
   // Display welcome page or all images for a logged-in user
