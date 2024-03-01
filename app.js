@@ -27,7 +27,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
-let MONGO_URL = "mongodb://127.0.0.1:27017/blinkitAss";
+let MONGO_URL = process.env.MONGO_URL;
 
 //all route require
 const imageRoutes = require("./routes/image");
@@ -49,7 +49,7 @@ async function main() {
 
 //Sessions setup
 const sessionOptions = {
-  secret: "mysupersecretcode",
+  secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: true,
   cookie: {
