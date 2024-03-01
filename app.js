@@ -11,7 +11,7 @@ const flash = require("connect-flash");
 
 
 //model require
-const User = require("./models/user");
+const User = require("./models/User");
 
 //Passport require
 const passport = require("passport");
