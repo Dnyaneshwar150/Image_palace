@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const flash = require("connect-flash");
 
-
+const PORT = process.env.PORT || 8080;
 //model require
 const User = require("./models/User");
 
